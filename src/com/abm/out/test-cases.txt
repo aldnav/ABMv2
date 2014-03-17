@@ -1,0 +1,76 @@
+test-case:	// first test
+	pref.put("Population", 10000);
+	pref.put("SER1-alpha", 7);
+	pref.put("SER2-alpha", 5);
+	pref.put("SER1-beta", 4);
+	pref.put("SER2-beta", 4);
+	pref.put("Run Time", 1);
+	pref.put("Time Unit", "years");
+	pref.put("Infection Probability", 0.1);
+	pref.put("SER1 Init Infected", 200);
+	pref.put("SER2 Init Infected", 200);
+	pref.put("SER1 Init Resistant", 500);
+	pref.put("SER2 Init Resistant", 500);
+	Simulation complete! ... ( 12606ms )
+	... save a screenshot if necessary
+
+test-case: // !significant can be deleted
+	pref.put("Population", 10000);
+	pref.put("SER1-alpha", 7);
+	pref.put("SER2-alpha", 5);
+	pref.put("SER1-beta", 4);
+	pref.put("SER2-beta", 4);
+	pref.put("Run Time", 1);
+	pref.put("Time Unit", "years");
+	pref.put("Infection Probability", 0.1);
+	pref.put("SER1 Init Infected", 2000);
+	pref.put("SER2 Init Infected", 2000);
+	pref.put("SER1 Init Resistant", 800);
+	pref.put("SER2 Init Resistant", 800);
+	Simulation complete! ... ( 12119ms )
+
+
+test-case: // shows more variation 
+	pref.put("Population", 10000);
+	pref.put("SER1-alpha", 7);
+	pref.put("SER2-alpha", 5);
+	pref.put("SER1-beta", 4);
+	pref.put("SER2-beta", 4);
+	pref.put("Run Time", 90);
+	pref.put("Time Unit", "days");
+	pref.put("Infection Probability", 0.5);
+	pref.put("SER1 Init Infected", 200);
+	pref.put("SER2 Init Infected", 200);
+	pref.put("SER1 Init Resistant", 500);
+	pref.put("SER2 Init Resistant", 500);
+
+test-case:  // sexy curve (cant describe it better for now)
+	pref.put("Population", 10000);
+	pref.put("SER1-alpha", 7);
+	pref.put("SER2-alpha", 5);
+	pref.put("SER1-beta", 4);
+	pref.put("SER2-beta", 4);
+	pref.put("Run Time", 1);
+	pref.put("Time Unit", "years");
+	pref.put("Infection Probability", 0.05);
+	pref.put("SER1 Init Infected", 200);
+	pref.put("SER2 Init Infected", 200);
+	pref.put("SER1 Init Resistant", 500);
+	pref.put("SER2 Init Resistant", 500);
+	Simulation complete! ... ( 12105ms )
+
+test-case: // quite interesting
+	pref.put("Population", 1000);
+	pref.put("SER1-alpha", 7);
+	pref.put("SER2-alpha", 5);
+	pref.put("SER1-beta", 4);
+	pref.put("SER2-beta", 4);
+	pref.put("Run Time", 1);
+	pref.put("Time Unit", "years");
+	pref.put("Infection Probability", 0.025);
+	pref.put("SER1 Init Infected", 200);
+	pref.put("SER2 Init Infected", 200);
+	pref.put("SER1 Init Resistant", 20);
+	pref.put("SER2 Init Resistant", 20);
+	Simulation ...  complete! ( 380ms )
+
